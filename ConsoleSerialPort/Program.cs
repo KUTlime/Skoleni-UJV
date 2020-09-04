@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO.Ports;
 
 namespace ConsoleSerialPort
 {
@@ -6,7 +7,11 @@ namespace ConsoleSerialPort
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			Console.WriteLine("Ports available:");
+			foreach (var port in SerialPort.GetPortNames())
+			{
+				Console.WriteLine($"Port name: {port}");
+			}
 		}
 	}
 }
