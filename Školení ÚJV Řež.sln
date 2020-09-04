@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFDemo", "WPFDemo\WPFDemo.csproj", "{B8B92F36-0CAD-4B32-858F-8C8B9E936E4C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleSerialPort", "ConsoleSerialPort\ConsoleSerialPort.csproj", "{7888E2D4-8988-4A3B-B01C-1EC43F51C88D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B8B92F36-0CAD-4B32-858F-8C8B9E936E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8B92F36-0CAD-4B32-858F-8C8B9E936E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8B92F36-0CAD-4B32-858F-8C8B9E936E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7888E2D4-8988-4A3B-B01C-1EC43F51C88D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7888E2D4-8988-4A3B-B01C-1EC43F51C88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7888E2D4-8988-4A3B-B01C-1EC43F51C88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7888E2D4-8988-4A3B-B01C-1EC43F51C88D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
