@@ -53,7 +53,7 @@
 			<GroupBox Grid.Row="2" Header="GroupBox" Margin="5,5,5,5">
 				<StackPanel Orientation="Horizontal" Margin="5">
 					<TextBlock x:Name="SliderValue" Text="{Binding Value, ElementName=Slider}"></TextBlock>
-					<Slider Minimum="0" Maximum="100" Value="50" x:Name="Slider"></Slider>
+					<Slider Minimum="0" Maximum="100" Value="50" x:Name="Slider" Width="500"></Slider>
 				</StackPanel>
 			</GroupBox>
 		</Grid>
