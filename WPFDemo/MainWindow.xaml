@@ -41,6 +41,12 @@
 							<Button Margin="5,0,0,0">Click me</Button>
 							<Button Margin="5,0,0,0">Click me</Button>
 						</StackPanel>
+						<StackPanel Orientation="Horizontal">
+							<Button Margin="5,0,0,0">Click me</Button>
+							<Button Margin="5,0,0,0">Click me</Button>
+							<Button Margin="5,0,0,0">Click me</Button>
+							<Button Margin="5,0,0,0">Click me</Button>
+						</StackPanel>
 					</StackPanel>
 				</GroupBox.Content>
 			</GroupBox>
